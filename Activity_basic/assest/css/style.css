@@ -1,0 +1,259 @@
+/*common code start*/
+*{
+	margin: 0px;
+	border: 0px;
+	list-style: none;
+	text-decoration: none;
+
+}
+.outer-padding{
+	padding: 0px 50px;
+
+}
+.all-outer-padding{
+	padding: 70px 50px;
+
+}
+.active{
+	color:#30C39E;
+}
+.section-title{
+	color: 000000;
+	font-size: 34px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 40px;
+
+}
+/*common code end*/
+
+
+header{
+	background: url(../img/banner.jpg);
+	background-size: cover;
+	
+
+}
+.overlay{
+	background: rgba(0, 0, 0, .6);
+}
+
+.navber{
+	display: flex;
+	padding: 20px 0px;
+	justify-content: space-between;
+}
+.logo a{
+	color: #F8F9FA;
+	transition: .5s ;
+	font-size: 38px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.logo a:hover{
+	color:#30C39E ;
+}
+
+.logo .fa-rebel{
+	color: #30C39E;
+	transition: .5s;
+}
+.logo a:hover .fa-rebel{
+	color: #F8F9FA;
+	
+}
+
+nav ul{
+	display: flex;
+
+
+}
+nav ul li a{
+	padding: 0px 10px;
+	color: #F8F9FA;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-left: 10px;
+
+}
+nav ul li a:hover{
+	color:#30C39E;
+}
+
+/*Banner code start*/
+.banner{
+	padding: 110px 0px 50px 0px;
+
+}
+.banner h2{
+	color: #FFFFFF;
+	font-size: 32;
+	letter-spacing: 1px;
+	text-shadow: 0px 2px 2px rgb(256 256 256/40%);
+	text-transform: capitalize;
+}
+.banner h1{
+	color: #30C39E;
+	font-size: 40px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	text-shadow: 0px 2px 2px rgb(48 195 158/40%);
+	padding: 5px 0px;
+	font-weight: 600;
+}
+.banner p{
+	color: #FFFFFF;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	width: 600px;
+	line-height: 24px;
+	text-align: justify;
+	padding: 30px 0px;
+}
+.banner a{
+	color: #FDFFFF;
+	font-size: 22px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	border:2px solid #FDFFFF;
+	border-radius: 5px;
+	transition: .5s;
+	padding: 5px 10px;
+}
+.banner a:hover{
+	color:#30C39E;
+	border:2px solid #30C39E;
+}
+/*Banner code start*/
+
+/*about area code start*/
+.about-content-area{
+	display: flex;
+	justify-content: space-between;
+
+}
+.about-content-left{
+	width: 100%;
+}
+.about-content-left h3{
+	color: #000000;
+	font-size: 24px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-weight: 500;
+	margin-bottom: 20px;
+	line-height: 24px;
+}
+.about-content-left p{
+	color: #6c757d;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	line-height: 28px;
+	text-align: justify;
+	margin-bottom: 30px;
+	font-weight: 400;
+	
+
+}
+.about-content-left a{
+	color: #fff;
+	font-size: 22px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-weight: 500;
+	transition: .5s;
+	background: #0a8ea0;
+	border:2px #0a8ea0 solid;
+	border-radius: 7px;
+	padding: 5px 10px;
+}
+.about-content-left a:hover{
+	color:#333333;
+	background: #fff;
+	border:2px #0a8ea0 solid;
+	
+}
+
+.about-content-center{
+	width: 100%;
+	padding: 0px 30px;
+}
+.about-content-center img{
+	width: 100%;
+	display: block;
+
+}
+
+.about-content-right{
+	width: 100%;
+}
+.about-right-content h2{
+	display: flex;
+	justify-content: space-between;
+	color: #000;
+	font-size: 22px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-weight: 600;
+	padding-bottom: 5px;
+
+}
+.about-right-content p{
+	color: #6c757d;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-weight: 400;
+	padding-top: 10px;
+	line-height: 24px;
+	padding-bottom: 25px;
+	
+}
+/*about area code end*/
+/*services area code*/
+.service-section{
+	background: #30C39E;
+}
+.services-content-area{
+display: flex;
+justify-content: space-between;
+}
+
+.services-content-area h2{
+	color:#F8F9FA ;
+	font-size: 24px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-weight: 600;
+	padding-bottom: 15px;
+
+}
+.services-content-area p{
+	color:#F8F9FA ;
+	font-size: 18px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 28px;
+	padding-bottom: 110px;
+
+}
+.services-left-content{
+	width: 100%;
+}
+.services-center-content{
+	width: 100%;
+	padding: 0px 30px;
+}
+.services-right-content{
+	width: 100%;
+}
+.services-center-content i{
+	font-size: 30px;
+	padding-right: 10px;
+}
